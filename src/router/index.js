@@ -23,6 +23,16 @@ const routes = [
     path: '/filmes',
     name: 'Filmes',
     component: () => import('../views/MovieView.vue')
+  },
+  {
+    path: '/filmes/add',
+    name: 'Cadastrar Filmes',
+    component: () => import('../views/AddMovieView.vue')
+  },
+  {
+    path: '/filmes/:id/edit',
+    name: 'Editar Filmes',
+    component: () => import('../views/EditMovieView.vue')
   }
 ]
 
