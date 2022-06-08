@@ -89,7 +89,7 @@
           })
           this.alertShow = true
           this.alert.type = 'success'
-          this.alert.message = ' com sucesso!'
+          this.alert.message = 'Atualizado com sucesso!'
           this.handleReturn()
         } catch (err) {
           this.alert.type = 'error'
